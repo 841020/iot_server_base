@@ -5,9 +5,8 @@ services:
     image: mysql
     command: --default-authentication-plugin=mysql_native_password --character-set-server=utf8mb4 --collation-server=utf8mb4_unicode_ci
     restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: example
-      MYSQL_DATABASE: default_db
+    env_file:
+      - ./env/db.env
 
   adminer:
     image: adminer
@@ -20,6 +19,6 @@ services:
     ports:
       - 8888:8888
     env_file:
-      - ./image.env
+      - ./env/web.env
     depends_on:
       - db
