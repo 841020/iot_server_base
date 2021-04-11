@@ -1,14 +1,12 @@
-import gettext
-
 import tornado.ioloop
 import tornado.web
 
-en_US = gettext.translation('messages', localedir='./translations', languages=['en_US'])
-zh_TW = gettext.translation('messages', localedir='./translations', languages=['zh_TW'])
+from tools import switch_locale
+
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        en_US.install()
+        switch_locale('zh_TW')
         self.write(_("Hello, world"))
 
 
@@ -19,7 +17,7 @@ def make_app():
 
 
 if __name__ == "__main__":
-    zh_TW.install()
+    switch_locale('en_US')
     app = make_app()
     app.listen(8888)
     tornado.ioloop.IOLoop.current().start()
