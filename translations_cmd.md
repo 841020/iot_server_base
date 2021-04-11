@@ -8,7 +8,7 @@ mkdir -p translations/zh_TW/LC_MESSAGES/
 mkdir -p translations/en_US/LC_MESSAGES/
 
 #make pot file
-xgettext --from-code=utf-8 app.py -o messages.pot
+find . -iname "*.py" | xargs xgettext --from-code=utf-8 -o messages.pot
 sed -i 's/charset=CHARSET/charset=UTF-8/g' messages.pot
 
 #make po file
