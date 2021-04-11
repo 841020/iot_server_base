@@ -5,6 +5,7 @@ COPY . .
 
 RUN apt-get update 
 
+#mount package
 RUN apt install -y cifs-utils
 
 #Install wget 
