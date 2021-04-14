@@ -1,3 +1,5 @@
+[可以使用Babel 幫助掃描檔案 但是不要加入 requirement.txt](https://github.com/twtrubiks/Flask-Babel-example)
+
 #ubuntu install gettext<br>
 <code>sudo apt install gettext</code>
 
