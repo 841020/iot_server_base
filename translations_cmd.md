@@ -1,4 +1,14 @@
-[可以使用Babel 幫助掃描檔案 但是不要加入 requirement.txt](https://github.com/twtrubiks/Flask-Babel-example)
+[可以使用 Babel 幫助掃描檔案 但是不要加入 requirement.txt](https://github.com/twtrubiks/Flask-Babel-example)
+
+1.在虛擬環境裝 pybabel[非 docker requirement]
+2.add babel.cfg
+3.pybabel extract -F babel.cfg -o messages.pot . #.pot init
+4.pybabel init -i messages.pot -d translations -l zh # mkdir zh & .po init
+5.pybabel init -i messages.pot -d translations -l en # mkdir en & .po init
+6.pybabel compile -d translations # init .mo
+7.pybabel extract -F babel.cfg -o messages.pot . #update .pot
+8.pybabel update -i messages.pot -d translations # update .po
+9.pybabel compile -d translations # update .mo
 
 #ubuntu install gettext<br>
 <code>sudo apt install gettext</code>
@@ -10,7 +20,7 @@ locale -a
 <code>mkdir -p translations/en_US/LC_MESSAGES/</code>
 
 #make pot file<br>
-<code>find . -iname "*.py" | xargs xgettext --from-code=utf-8 -o messages.pot</code><br>
+<code>find . -iname "\*.py" | xargs xgettext --from-code=utf-8 -o messages.pot</code><br>
 <code>sed -i 's/charset=CHARSET/charset=UTF-8/g' messages.pot</code>
 
 #make po file<br>

@@ -17,7 +17,7 @@ def make_app():
 
 
 if __name__ == "__main__":
-    switch_locale('en_US')
+    switch_locale('en')
     app = make_app()
     app.listen(8888)
     tornado.ioloop.IOLoop.current().start()

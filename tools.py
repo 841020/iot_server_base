@@ -3,8 +3,8 @@ import gettext
 
 def switch_locale(locale=None):
     locale_map = {
-        'en_US': gettext.translation('messages', localedir='./translations', languages=['en_US']),
-        'zh_TW': gettext.translation('messages', localedir='./translations', languages=['zh_TW'])
+        'en': gettext.translation('messages', localedir='./translations', languages=['en']),
+        'zh': gettext.translation('messages', localedir='./translations', languages=['zh'])
     }
-    language = locale_map.get(locale, 'en_US')
+    language = locale_map.get(locale, 'en')
     language.install()
