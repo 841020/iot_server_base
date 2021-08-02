@@ -7,8 +7,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+<<<<<<< HEAD
 "POT-Creation-Date: 2021-04-16 18:18+0800\n"
 "PO-Revision-Date: 2021-04-16 18:23+0800\n"
+=======
+"POT-Creation-Date: 2021-04-17 11:29+0800\n"
+"PO-Revision-Date: 2021-04-17 11:29+0800\n"
+>>>>>>> 1166516ec8718379f74d4d76ffe18d0d52dd6146
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh\n"
 "Language-Team: zh <LL@li.org>\n"
@@ -20,5 +25,178 @@ msgstr ""
 
 #: app.py:10
 msgid "Hello, world"
+<<<<<<< HEAD
 msgstr "安安你好123"
+=======
+msgstr "安安你好"
+
+#: tutorial-env/lib/python3.8/site-packages/isort/main.py:159
+msgid "show this help message and exit"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:281
+msgid "January"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:282
+msgid "February"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:283
+msgid "March"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:284
+msgid "April"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:285
+msgid "May"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:286
+msgid "June"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:287
+msgid "July"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:288
+msgid "August"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:289
+msgid "September"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:290
+msgid "October"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:291
+msgid "November"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:292
+msgid "December"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:295
+msgid "Monday"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:296
+msgid "Tuesday"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:297
+msgid "Wednesday"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:298
+msgid "Thursday"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:299
+msgid "Friday"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:300
+msgid "Saturday"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:301
+msgid "Sunday"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:371
+msgid "1 second ago"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:377
+msgid "1 minute ago"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:382
+msgid "1 hour ago"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:385
+#, python-format
+msgid "%(time)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:387
+msgid "yesterday"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:387
+#, python-format
+msgid "yesterday at %(time)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:389
+#, python-format
+msgid "%(weekday)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:389
+#, python-format
+msgid "%(weekday)s at %(time)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:392
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:445
+#, python-format
+msgid "%(month_name)s %(day)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:394
+#, python-format
+msgid "%(month_name)s %(day)s at %(time)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:399
+#, python-format
+msgid "%(month_name)s %(day)s, %(year)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:401
+#, python-format
+msgid "%(month_name)s %(day)s, %(year)s at %(time)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:439
+#, python-format
+msgid "%(weekday)s, %(month_name)s %(day)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/locale.py:462
+#, python-format
+msgid "%(commas)s and %(last)s"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/test/locale_test.py:68
+msgctxt "law"
+msgid "right"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/test/locale_test.py:69
+msgctxt "good"
+msgid "right"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/test/locale_test.py:71
+#: tutorial-env/lib/python3.8/site-packages/tornado/test/locale_test.py:74
+msgctxt "organization"
+msgid "club"
+msgstr ""
+
+#: tutorial-env/lib/python3.8/site-packages/tornado/test/locale_test.py:76
+#: tutorial-env/lib/python3.8/site-packages/tornado/test/locale_test.py:77
+msgctxt "stick"
+msgid "club"
+msgstr ""
+>>>>>>> 1166516ec8718379f74d4d76ffe18d0d52dd6146
 

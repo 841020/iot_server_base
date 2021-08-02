@@ -1,4 +1,5 @@
 [可以使用 Babel 幫助掃描檔案 但是不要加入 requirement.txt](https://github.com/twtrubiks/Flask-Babel-example)
+<<<<<<< HEAD
 
 1.在虛擬環境裝 pybabel[非 docker requirement]
 2.add babel.cfg
@@ -9,6 +10,16 @@
 7.pybabel extract -F babel.cfg -o messages.pot . #update .pot
 8.pybabel update -i messages.pot -d translations # update .po
 9.pybabel compile -d translations # update .mo
+=======
+1.install Babel
+2.create babel.cfg
+3.pybabel extract -F babel.cfg -o messages.pot .
+4.pybabel init -i messages.pot -d translations -l zh # mkdir zh and init zh .po  
+5.pybabel compile -d translations # .po to .mo
+6.pybabel extract -F babel.cfg -o messages.pot . #scan folder
+7.pybabel update -i messages.pot -d translations #update .po
+8.pybabel compile -d translations # .po to .mo
+>>>>>>> 1166516ec8718379f74d4d76ffe18d0d52dd6146
 
 #ubuntu install gettext<br>
 <code>sudo apt install gettext</code>

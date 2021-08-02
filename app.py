@@ -6,7 +6,7 @@ from tools import switch_locale
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-        switch_locale('zh_TW')
+        switch_locale('zh')
         self.write(_("Hello, world"))
 
 
